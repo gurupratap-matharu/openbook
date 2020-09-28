@@ -10,13 +10,13 @@ const config = {
     logoLink: 'https://hasura.io/learn/',
     title:
       "<a href='https://hasura.io/learn/'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",
-    githubUrl: 'https://github.com/hasura/gatsby-gitbook-boilerplate',
+    githubUrl: 'https://github.com/gurupratap-matharu/gatsby-gitbook-boilerplate',
     helpUrl: '',
     tweetText: '',
     social: `<li>
 		    <a href="https://twitter.com/hasurahq" target="_blank" rel="noopener">
 		      <div class="twitterBtn">
-		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/twitter-brands-block.svg' alt={'Discord'}/>
+		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/twitter-brands-block.svg' alt={'Twitter'}/>
 		      </div>
 		    </a>
 		  </li>
@@ -29,8 +29,8 @@ const config = {
 		  </li>`,
     links: [{ text: '', link: '' }],
     search: {
-      enabled: false,
-      indexName: '',
+      enabled: true,
+      indexName: 'ALGOLIA_INDEX',
       algoliaAppId: process.env.GATSBY_ALGOLIA_APP_ID,
       algoliaSearchKey: process.env.GATSBY_ALGOLIA_SEARCH_KEY,
       algoliaAdminKey: process.env.ALGOLIA_ADMIN_KEY,
@@ -44,7 +44,7 @@ const config = {
     collapsedNav: [
       '/codeblock', // add trailing slash if enabled above
     ],
-    links: [{ text: 'Hasura', link: 'https://hasura.io' }],
+    links: [{ text: 'Openbook', link: 'https://openbook.io' }],
     frontline: false,
     ignoreIndex: true,
     title:
