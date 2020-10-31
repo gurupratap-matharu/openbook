@@ -1,20 +1,20 @@
 const config = {
   gatsby: {
     pathPrefix: '/',
-    siteUrl: 'https://hasura.io',
+    siteUrl: 'https://github.com/gurupratap-matharu/openbook',
     gaTrackingId: null,
     trailingSlash: false,
   },
   header: {
     logo: 'https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/brand.svg',
-    logoLink: 'https://hasura.io/learn/',
+    logoLink: 'https://github.com/gurupratap-matharu/openbook',
     title:
-      "<a href='https://hasura.io/learn/'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",
+      "<a href='https://github.com/gurupratap-matharu/openbook'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",
     githubUrl: 'https://github.com/gurupratap-matharu/openbook',
     helpUrl: '',
     tweetText: '',
     social: `<li>
-		    <a href="https://twitter.com/hasurahq" target="_blank" rel="noopener">
+		    <a href="https://twitter.com/gurupratap_m" target="_blank" rel="noopener">
 		      <div class="twitterBtn">
 		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/twitter-brands-block.svg' alt={'Twitter'}/>
 		      </div>
@@ -58,7 +58,7 @@ const config = {
     favicon: 'https://github.com/gurupratap-matharu/openbook/blob/master/src/assets/favicon-32x32.png',
   },
   pwa: {
-    enabled: true, // disabling this will also remove the existing service worker.
+    enabled: false, // disabling this will also remove the existing service worker.
     manifest: {
       name: 'Open Book',
       short_name: 'Open Book',
