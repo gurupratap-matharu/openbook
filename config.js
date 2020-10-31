@@ -58,10 +58,10 @@ const config = {
     favicon: 'https://github.com/gurupratap-matharu/openbook/blob/master/src/assets/favicon-32x32.png',
   },
   pwa: {
-    enabled: false, // disabling this will also remove the existing service worker.
+    enabled: true, // disabling this will also remove the existing service worker.
     manifest: {
-      name: 'Gatsby Gitbook Starter',
-      short_name: 'GitbookStarter',
+      name: 'Open Book',
+      short_name: 'Open Book',
       start_url: '/',
       background_color: '#6b37bf',
       theme_color: '#6b37bf',
@@ -69,7 +69,7 @@ const config = {
       crossOrigin: 'use-credentials',
       icons: [
         {
-          src: 'src/pwa-512.png',
+          src: 'src/assets/android-chrome-512x512.png',
           sizes: `512x512`,
           type: `image/png`,
         },
