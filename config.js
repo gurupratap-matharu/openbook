@@ -10,7 +10,7 @@ const config = {
     logoLink: 'https://hasura.io/learn/',
     title:
       "<a href='https://hasura.io/learn/'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",
-    githubUrl: 'https://github.com/gurupratap-matharu/gatsby-gitbook-boilerplate',
+    githubUrl: 'https://github.com/gurupratap-matharu/openbook',
     helpUrl: '',
     tweetText: '',
     social: `<li>
