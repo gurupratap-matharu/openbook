@@ -51,11 +51,11 @@ const config = {
       "<a href='https://hasura.io/learn/'>graphql </a><div class='greenCircle'></div><a href='https://hasura.io/learn/graphql/react/introduction/'>react</a>",
   },
   siteMetadata: {
-    title: 'Gatsby Gitbook Boilerplate | Hasura',
-    description: 'Documentation built with mdx. Powering hasura.io/learn ',
-    ogImage: null,
-    docsLocation: 'https://github.com/hasura/gatsby-gitbook-boilerplate/tree/master/content',
-    favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
+    title: 'Openbook',
+    description: 'An open blog to learn about coding',
+    ogImage: 'https://github.com/gurupratap-matharu/openbook/blob/master/src/assets/favicon-32x32.png',
+    docsLocation: 'https://github.com/gurupratap-matharu/openbook/tree/master/content',
+    favicon: 'https://github.com/gurupratap-matharu/openbook/blob/master/src/assets/favicon-32x32.png',
   },
   pwa: {
     enabled: false, // disabling this will also remove the existing service worker.
